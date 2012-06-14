@@ -357,6 +357,8 @@ FileETag None
 
 # BONUS: Rewrites .php docs to be accessed without the file extention.
 RewriteRule ^/?([a-z]+)$ $1.php [L]
+# SUBFOLDER: Rewrites .php docs to be accessed without file extention for specific sub directory.
+# RewriteRule ^music/([^/\.]+)/?$ music/$1.php [L]
 
 # ----------------------------------------------------------------------
 
